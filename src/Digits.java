@@ -11,6 +11,13 @@ public class Digits
     public Digits (int num)
     {
         //implemented in part (a)
+        int last = num%10;
+        String numStr = "";
+        for(int i = 10; i< (num*10); i = i*10)
+        {
+            numStr = " " + num;
+        }
+        System.out.println(numStr);
     }
     public boolean isStrictlyIncreasing()
     {
